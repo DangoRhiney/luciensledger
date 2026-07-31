@@ -127,3 +127,7 @@ footer {
 .posts-sidebar {
     background: var(--accent-color);
 }
+
+.case-list {
+    background: var(--bg-color);
+}
