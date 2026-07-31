@@ -123,3 +123,7 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #600806;
 }
+
+.posts-sidebar {
+    background: var(--accent-color);
+}
