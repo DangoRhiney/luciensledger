@@ -151,6 +151,7 @@ footer {
     letter-spacing: 2px;
 }
 
+/*
 .case-list {
     display: block;
     background: var(--bg-color);
@@ -160,4 +161,17 @@ footer {
     border-radius: 4px 8px 8px 8px;
     padding: 19px 15px 19px 15px;
     margin: 8px 4px 6px 4px;
+}
+*/
+
+.case-link {
+    display: block;
+    background-color: var(--bg-color); /* Black boxes */
+    color: var(--text-color); /* Gold text */
+    padding: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-left: 4px solid var(--accent-color);
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
