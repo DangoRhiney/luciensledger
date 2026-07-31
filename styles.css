@@ -181,3 +181,15 @@ footer {
     color: var(--bg-color); /* Text turns black on hover for readability */
     border-left: 4px solid var(--text-color); /* Border turns gold on hover */
 }
+
+/* Responsive Layout */
+@media (max-width: 850px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .posts-sidebar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
