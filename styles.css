@@ -175,3 +175,9 @@ footer {
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.case-link:hover {
+    background-color: var(--accent-color); /* Turns red on hover */
+    color: var(--bg-color); /* Text turns black on hover for readability */
+    border-left: 4px solid var(--text-color); /* Border turns gold on hover */
+}
