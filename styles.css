@@ -129,5 +129,12 @@ footer {
 }
 
 .case-list {
+    display: block;
     background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1.1em;
+    border: 1px var(--text-color);
+    border-radius: 4px 8px 8px 8px;
+    padding: 19px 15px 19px 15px;
+    margin: 8px 4px 6px 4px;
 }
