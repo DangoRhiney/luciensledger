@@ -182,6 +182,16 @@ footer {
     border-left: 4px solid var(--text-color); /* Border turns gold on hover */
 }
 
+/* Ghostly Purple for Visited Links */
+.case-link:visited {
+    color: #8980a8; 
+}
+
+/* Keep hover behavior consistent for visited links */
+.case-link:visited:hover {
+    color: var(--bg-color);
+}
+
 /* Responsive Layout */
 @media (max-width: 850px) {
     .content-wrapper {
