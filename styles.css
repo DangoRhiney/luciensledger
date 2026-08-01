@@ -184,12 +184,15 @@ footer {
 
 /* Ghostly Purple for Visited Links */
 .case-link:visited {
-    color: #8980a8; 
+    color: #8980a8;
+    background-color: var(--accent-color);
+    border-left: 4px solid var(--text-color);
 }
 
 /* Keep hover behavior consistent for visited links */
 .case-link:visited:hover {
     color: var(--bg-color);
+    background-color: var(--accent-color);
 }
 
 /* Responsive Layout */
